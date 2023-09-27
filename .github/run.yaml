@@ -1,0 +1,7 @@
+name: kankuro workflow
+description: A workflow named kankuro that creates repositories from repository-templates in the organization.
+on:
+  issues:
+     types: [opened]
+jobs:
+  
